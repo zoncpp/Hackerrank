@@ -64,7 +64,6 @@ public:
 		t->prev = tail;
 		mp.insert(std::pair<int, Node*>(key, t));
 		tail = t;
-		//mp.insert(std::pair<int, Node*>(key, new Node(key, val)));
 	}
 	int get(int key) 
 	{ 
